@@ -3,7 +3,7 @@ package org.launchcode.java.studios;
 import java.util.Scanner;
 
 /**
- * Created by cperc on 2/27/2017.
+ * Studio for Class 1, 2/27/17.
  */
 public class Area {
 
@@ -21,7 +21,8 @@ public class Area {
 
             if (radius > 0){
                 area = pi * radius * radius;
-                System.out.println("The area of the circle is " + area);
+                String template = "The area of the circle is %s";
+                System.out.println(String.format(template, area));
 
             }
 
