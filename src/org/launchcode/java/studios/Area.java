@@ -10,7 +10,7 @@ public class Area {
     public static void main(String[] args){
         //A = pi * r * r for area of a circle
 
-        Double pi = 3.14;
+        //Double PI = 3.14;
         Scanner scanner = new Scanner(System.in);
         Double area;
         Double radius;
@@ -20,7 +20,7 @@ public class Area {
             radius = scanner.nextDouble();
 
             if (radius > 0){
-                area = pi * radius * radius;
+                area = Math.PI * radius * radius;
                 String template = "The area of the circle is %s";
                 System.out.println(String.format(template, area));
 
